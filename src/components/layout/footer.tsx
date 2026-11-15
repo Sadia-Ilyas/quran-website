@@ -44,7 +44,7 @@ export function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-2 border-t border-white/10 pt-6 text-xs text-deep-foreground/60 sm:flex-row">
           <p>© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
-          <p>Demo website with mock data. No real bookings are made.</p>
+          {/* <p>Demo website with mock data. No real bookings are made.</p> */}
         </div>
       </div>
     </footer>

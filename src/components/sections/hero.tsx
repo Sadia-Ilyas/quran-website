@@ -32,15 +32,15 @@ function LiveClassCard() {
       <div className="rounded-3xl border border-border bg-card p-6 shadow-glow sm:p-7">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="grid size-11 place-items-center rounded-full bg-primary font-semibold text-primary-foreground">AR</span>
+            {/* <span className="grid size-11 place-items-center rounded-full bg-primary font-semibold text-primary-foreground">AR</span> */}
             <div>
-              <p className="text-sm font-semibold">Ustadh Abdullah</p>
-              <p className="text-xs text-muted-foreground">Tajweed, live 1-on-1</p>
+              {/* <p className="text-sm font-semibold">Ustadh Abdullah</p> */}
+              {/* <p className="text-xs text-muted-foreground">Tajweed, live 1-on-1</p> */}
             </div>
           </div>
-          <span className="flex items-center gap-2 rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-red-600">
+          {/* <span className="flex items-center gap-2 rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-red-600">
             <span className="size-2 animate-pulse rounded-full bg-red-500" /> Live
-          </span>
+          </span> */}
         </div>
 
         <div dir="rtl" lang="ar" className="mt-6 flex flex-wrap justify-center gap-x-3 gap-y-2 rounded-2xl bg-secondary/60 px-4 py-7 font-arabic text-4xl leading-[1.9] sm:text-5xl">
@@ -62,9 +62,9 @@ function LiveClassCard() {
       <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute -right-2 -top-5 flex items-center gap-2 rounded-2xl border border-border bg-card px-4 py-2.5 shadow-card sm:-right-8">
         <Star className="size-4 fill-accent text-accent" /><span className="text-sm font-semibold">4.9 rating</span>
       </motion.div>
-      <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }} className="absolute -bottom-5 -left-2 flex items-center gap-2 rounded-2xl border border-border bg-card px-4 py-2.5 shadow-card sm:-left-8">
+      {/* <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }} className="absolute -bottom-5 -left-2 flex items-center gap-2 rounded-2xl border border-border bg-card px-4 py-2.5 shadow-card sm:-left-8">
         <BadgeCheck className="size-5 text-primary" /><span className="text-sm font-semibold">Ijazah-certified</span>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }
@@ -76,9 +76,9 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-4 pb-20 pt-10 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10 lg:px-8 lg:pb-28 lg:pt-16">
         <div>
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-wrap gap-2">
-            <Badge><BadgeCheck className="size-3.5" /> Ijazah-certified tutors</Badge>
+            <Badge><BadgeCheck className="size-3.5" /> Experienced Quran Tutors</Badge>
             <Badge variant="gold">Free 30-minute trial</Badge>
-            <Badge variant="outline">Ages 5 to 70+</Badge>
+            <Badge variant="outline">Ages 5 to 50+</Badge>
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }} className="mt-6 text-balance text-4xl font-semibold leading-[1.1] sm:text-5xl lg:text-6xl">
