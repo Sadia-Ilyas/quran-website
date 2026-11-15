@@ -1,7 +1,7 @@
 import type { NavItem } from "@/types";
 
 export const siteConfig = {
-  name: "Noor Quran Academy",
+  name: "UMAMA QURAN ACADEMY",
   description:
     "Learn Quran online with certified expert tutors. One-to-one live classes in Nazra, Hifz, Tajweed and Arabic, at times that fit your life.",
   contact: {

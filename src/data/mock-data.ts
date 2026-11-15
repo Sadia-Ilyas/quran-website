@@ -39,7 +39,7 @@ export const courses: Course[] = [
     id: "nazra-quran", title: "Nazra Quran", arabicTitle: "ناظرة القرآن",
     tagline: "Read the Quran fluently, with confidence.",
     description: "Start from Arabic letters and build to smooth, correct recitation of the full Quran. Ideal for beginners and adults who never learned to read.",
-    level: "Beginner", duration: "6 months", sessionsPerWeek: 3, sessionLength: "30 min", price: 29,
+    level: "Beginner", duration: "6 months", sessionsPerWeek: 5, sessionLength: "30 min", price: 70,
     icon: "BookOpen", tutorId: "maryam-siddiqui", featured: true,
     syllabus: [
       { title: "Arabic letters & sounds", topics: ["Recognising all 28 letters", "Short vowels (harakat)", "Joining letters in words"] },
@@ -127,8 +127,8 @@ export const getCourse = (id: string) => courses.find((c) => c.id === id);
 export const features: Feature[] = [
   { title: "Tajweed mastery", icon: "Mic", description: "Live correction of makharij and rules, so every letter is recited as it should be." },
   { title: "1-on-1 classes", icon: "Video", description: "Private video lessons with your own tutor. Every minute is spent on your recitation." },
-  { title: "Flexible timings", icon: "Clock", description: "Pick slots that suit your time zone, and reschedule with 4 hours' notice." },
-  { title: "Male & female tutors", icon: "GraduationCap", description: "Choose a qualified tutor you are comfortable with, for you or your children." },
+  { title: "Flexible timings", icon: "Clock", description: "Pick slots that suit your time zone, missed classes are rescheduled on weekends." },
+  { title: "Female tutors", icon: "GraduationCap", description: "Choose a qualified tutor you are comfortable with, for you or your children." },
   { title: "Clear progress reports", icon: "TrendingUp", description: "See attendance, lessons completed and next goals in your student portal." },
   { title: "Free 30-minute trial", icon: "Heart", description: "Meet a tutor, check your level and see if we are a fit before you pay anything." },
 ];
@@ -140,9 +140,9 @@ export const steps: Step[] = [
 ];
 
 export const stats: Stat[] = [
-  { label: "Students taught", value: 2500, suffix: "+" },
-  { label: "Certified tutors", value: 60, suffix: "+" },
-  { label: "Countries", value: 40, suffix: "+" },
+  { label: "Students taught", value: 200, suffix: "+" },
+  { label: "Certified tutors", value: 17, suffix: "+" },
+  { label: "Countries", value: 10, suffix: "+" },
   { label: "Average rating", value: 4.9, decimals: 1 },
 ];
 
@@ -154,11 +154,11 @@ export const testimonials: Testimonial[] = [
 
 export const faqs: FaqItem[] = [
   { question: "How does the free trial work?", answer: "Book a 30-minute live class with a tutor. They check your current level, answer your questions and suggest a plan. There is no payment and no commitment." },
-  { question: "Are the tutors qualified?", answer: "Yes. Every tutor holds an Ijazah or equivalent certification, passes a recitation test and a teaching demo, and is reviewed regularly." },
-  { question: "Can I choose a male or female tutor?", answer: "Yes. Sisters and children can request a female tutor, and you can switch tutors at any time." },
+  { question: "Are the tutors qualified?", answer: "Yes. All our tutors are madrasa-graduated scholars with strong command over Tajweed, Makharij, and Hifz. They are experienced in teaching students of all levels with patience and clarity." },
+  { question: "Can I choose a male or female tutor?", answer: "No. Our classes are exclusively designed for children and female students, providing a safe, comfortable, and dedicated one-on-one learning environment." },
   { question: "What do I need to join a class?", answer: "A laptop, tablet or phone with a stable internet connection. Classes run on a standard video platform, so there is nothing complicated to install." },
-  { question: "What if I miss a class?", answer: "Reschedule with at least 4 hours' notice and the class is not lost. Each missed session can be recovered within the same month." },
-  { question: "What age groups do you teach?", answer: "We teach children from age 5, teenagers and adults, with lessons adapted to each age group." },
+  { question: "What if I miss a class?", answer: "No worries at all. If you miss a class, simply let us know in advance and we will easily arrange a makeup session for you over the weekend." },
+  { question: "What age groups do you teach?", answer: "We teach children aged 4 to 15 years, as well as female students from ages 4 to 50—whether they are complete beginners starting with Qaida or adults looking to improve their Tajweed and recitation." },
 ];
 
 /* ------------------------------ Dashboard ---------------------------- */
